@@ -1,7 +1,7 @@
 Summary: SGML and XML parser
 Name: opensp
 Version: 1.5.2
-Release: 17%{?dist}
+Release: 19%{?dist}
 Requires: sgml-common >= 0.5
 URL: http://openjade.sourceforge.net/
 Source: http://download.sourceforge.net/openjade/OpenSP-%{version}.tar.gz
@@ -98,6 +98,12 @@ make check || : # TODO: failures as of 1.5.2 :(
 
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.5.2-19
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.5.2-18
+- Mass rebuild 2013-12-27
+
 * Thu Aug 15 2013 Ondrej Vasik <ovasik@redhat.com> - 1.5.2-18
 - fix the inconsistency between man page and help (#854941)
 
